@@ -1,0 +1,19 @@
+spring:
+  mail:
+    host: HOST
+    port: 587
+    username: YOUR_USER
+    password: YOUR_PASSWORD
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+server:
+  port: 8081
